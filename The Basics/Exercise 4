@@ -1,0 +1,21 @@
+1. 
+preparations_exercises $ node foo.js
+bar
+
+2. 
+preparations_exercises $ node
+> let foo = 'bar'
+undefined
+> console.log(foo);
+bar
+undefined
+>foo
+'bar'
+>
+
+3.
+let foo = "bar";
+console.log(foo);
+foo;
+bar
+'bar'
