@@ -3,8 +3,12 @@ cd my_folder
 touch one.js
 touch two.js
 
+// opened both files in VSCode and entered the below code.
+
 console.log("this is file one");
 console.log("this is file two");
+
+// went back to the command line and entered below.
 
 my_folder node one.js
 this is file one
