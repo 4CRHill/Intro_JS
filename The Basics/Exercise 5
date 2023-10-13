@@ -1,0 +1,5 @@
+substring - string - instance
+create - object - static
+fromCharCode - string - static
+slice - array, string - instance
+toString - string, object, array, number - instance
