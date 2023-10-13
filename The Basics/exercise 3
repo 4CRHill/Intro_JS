@@ -1,8 +1,0 @@
-mkdir preparations_exercises
-touch foo.js
-
-// opened file in VSCode and entered the code below.
-
-let foo = "bar";
-console.log(foo);
-foo;
