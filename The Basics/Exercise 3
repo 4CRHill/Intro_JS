@@ -1,0 +1,6 @@
+1. 'true' = string 
+2. false = boolean 
+3. 1.5 = number
+4. 2 = number
+5. undefined = undefined 
+6. { foo: 'bar' } = object 
