@@ -1,0 +1,1 @@
+'foo' === 'Foo' will evaluate to false due to the cases being different.
