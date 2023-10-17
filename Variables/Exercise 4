@@ -1,0 +1,10 @@
+let foo = 'bar';
+{
+  let foo = 'qux';
+}
+
+console.log(foo);
+
+
+It will log 'bar'. When the second variable gets intialized it goes out of scope when the block ends,
+which means foo = bar is back in scope.
