@@ -1,9 +1,10 @@
-const FOO = 'bar';
+let foo = 'bar';
 {
-  const FOO = 'qux';
+  let foo = 'qux';
 }
 
-console.log(FOO);
+console.log(foo);
 
-It will still log 'bar' for the same reason as the previous question. Even though FOO = qux is a constant,
-it's outside the scope when the block ends.
+
+It will log 'bar'. When the second variable gets intialized it goes out of scope when the block ends,
+which means foo = bar is back in scope.
