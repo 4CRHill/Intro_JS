@@ -1,2 +1,7 @@
-It will print Good Morning Victor, Good Afternoon Victor, and Good Evening Victor. After this,
-there will be an error. The error is because you can't reassign a constant.
+{
+  let foo = 'bar';
+}
+
+console.log(foo);
+
+This will print an error because it's out of the scope when the block ends.
