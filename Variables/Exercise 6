@@ -1,1 +1,9 @@
+const FOO = 'bar';
+{
+  const FOO = 'qux';
+}
 
+console.log(FOO);
+
+It will still log 'bar' for the same reason as the previous question. Even though FOO = qux is a constant,
+it's outside the scope when the block ends.
